@@ -3,6 +3,9 @@ CURSO PROFESIONAL DE GIT Y GITHUB
 GIT FUE CREADO POR LA FUNDACIÓN QUE INICIO LINUX
 
 git config --list --> ver configuración por defecto que tiene git
+git config --list --show-origin -> ver donde estan guardadas esas configuraciones
+git config --global user.name "Fernando Romero" --> asignar un username al Git
+git config --global user.mail "juanfernandoro@ufps.edu.co" --> asignar un email al username
 
 
 git init -- Inicia en el directorio un repositorio
