@@ -1,0 +1,20 @@
+CICLO DE VIDA GIT
+---------------------------------
+
+git init --> Se crea un area en memoria RAM llamada staging, y se crea
+            el repositorio. El repositorio es la carpeta .git, y alli estan
+            todos los cambios al final del proyecto.
+
+            Antes de hacer 'git add' los archivos estan en estado 'untracked',
+            es decir: sin seguimiento
+
+git add  --> Los cambios de los archivos se envian al area staging, se puede
+            remover archivos con el comando 'git rm'.
+
+            Luego de hacer 'git add' los archivos pasan al estado 'tracked',
+            es decir: rastreado
+
+git commit --> Los cambios pasan del area staging al repositorio .git, por
+               defecto el repositorio tiene el nombre de master. Y alli estan
+               todos los cambios que se hacen.
+
