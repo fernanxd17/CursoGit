@@ -2,11 +2,15 @@ CURSO PROFESIONAL DE GIT Y GITHUB
 
 GIT FUE CREADO POR LA FUNDACIÓN QUE INICIO LINUX
 
+git config --list --> ver configuración por defecto que tiene git
+
+
 git init -- Inicia en el directorio un repositorio
 git add biografia.txt -- El sistema de control de versiones (GIT) se entera de que 								existe ese archivo
 git add . -- Git se entera de todos los archivos que han sido modificados
 git rm . -- Remueve todos los archivos que se encuentran en el staging
 git rm biografia.txt -- Remueve un archivo especifico del staging
+git rm --cached biografia.txt -- lo saca de memoria ram
 git commit -m "versión 1" -- Envia el archivo a la BD de GIT, para controlar sus 									cambios, añadiendole un mensaje
 git status -- Ver el estado de cambios en los archivos
 
@@ -21,4 +25,6 @@ git pull -- Traes los cambios de un repositorio remoto
 pwd -- Te muestra la ruta donde estoy parado en la consola
 
 git checkout -- Trae los cambios de otra rama
+
+
 
