@@ -33,3 +33,15 @@ git checkout -- Trae los cambios de otra rama
 
 git checkout master Proyecto1/historia.txt --> vuelve a la version mas reciente del archivo
 
+git reset --> Nos ayuda a volver a un commit especifico, pero ya no podemos devolvernos. Es decir
+                volvemos al pasado, pero ya no podemos volver al futuro
+
+    git reset idCommit --hard --> Borrando toda la info del area de staging (y perdiendo todo para siempre)
+    git reset idCommit --soft --> Mantiene los archivos del area de staging para poder aplicar los ultimos cambios pero desde un commit anterior
+    git reset idCommit --HEAD --> Pasa los cambios de un archivo fuera del area de staging, pero los conserva el disco. Que los ultimos cambios en los archivos no se envien al commit especifico. A menos que los incluyamos con . add
+
+git rm --> Eliminar archivos de Git sin eliminar su historial del sistema de versiones
+
+    git rm --cached: Elimina los archivos del área de Staging y del proximo
+                    commit pero los mantiene en nuestro disco duro
+    git rm --force: Elimina los archivos de Git y del disco duro.
