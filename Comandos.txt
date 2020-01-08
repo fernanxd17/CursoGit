@@ -23,10 +23,6 @@ git log biografia.txt -- Todos los cambios en un archivo en especifico
 
 git log --stat --> mira el historial de cambio y muestra archivos cambiados 
 
-git push -- Enviar cambios hacia un repositorio remoto
-
-git pull -- Traes los cambios de un repositorio remoto
-
 pwd -- Te muestra la ruta donde estoy parado en la consola
 
 git checkout -- Trae los cambios de otra rama
@@ -45,3 +41,11 @@ git rm --> Eliminar archivos de Git sin eliminar su historial del sistema de ver
     git rm --cached: Elimina los archivos del área de Staging y del proximo
                     commit pero los mantiene en nuestro disco duro
     git rm --force: Elimina los archivos de Git y del disco duro.
+
+git clone url --> Crea una copia del master en mi local. Descarga la base de datos remota del repositorio a mi entorno local
+
+git push -- Enviar cambios hacia un repositorio remoto
+
+git fetch --> Trae los cambios del repositorio remoto pero no los mezcla con mis archivos.
+
+git pull -- Une los cambios de un repositorio remoto con en el local
