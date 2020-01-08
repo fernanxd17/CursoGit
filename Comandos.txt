@@ -21,6 +21,8 @@ git show -- Todos los cambios historicos hechos, lineas, fechas, y autor
 
 git log biografia.txt -- Todos los cambios en un archivo en especifico
 
+git log --stat --> mira el historial de cambio y muestra archivos cambiados 
+
 git push -- Enviar cambios hacia un repositorio remoto
 
 git pull -- Traes los cambios de un repositorio remoto
