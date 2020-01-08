@@ -25,7 +25,7 @@ git log --stat --> mira el historial de cambio y muestra archivos cambiados
 
 pwd -- Te muestra la ruta donde estoy parado en la consola
 
-git checkout -- Trae los cambios de otra rama
+git checkout -- Trae los cambios de otro commit
 
 git checkout master Proyecto1/historia.txt --> vuelve a la version mas reciente del archivo
 
