@@ -41,7 +41,7 @@ git reset --> Nos ayuda a volver a un commit especifico, pero ya no podemos devo
     git reset idCommit --HEAD --> Pasa los cambios de un archivo fuera del area de staging, pero los conserva el disco. Que los ultimos cambios en los archivos no se envien al commit especifico. A menos que los incluyamos con . add
 
 git rm --> Eliminar archivos de Git sin eliminar su historial del sistema de versiones
-
+            Los archivos deben estar totalmente en stagin ( . add)
     git rm --cached: Elimina los archivos del área de Staging y del proximo
                     commit pero los mantiene en nuestro disco duro
     git rm --force: Elimina los archivos de Git y del disco duro.
