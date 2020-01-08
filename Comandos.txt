@@ -15,6 +15,9 @@ git rm . -- Remueve todos los archivos que se encuentran en el staging
 git rm biografia.txt -- Remueve un archivo especifico del staging
 git rm --cached biografia.txt -- lo saca de memoria ram
 git commit -m "versión 1" -- Envia el archivo a la BD de GIT, para controlar sus 									cambios, añadiendole un mensaje
+
+git commit -a "Mensaje" --> Hace add y commit al tiempo, solo sirve en archivos en que ya haya hecho add antes
+
 git status -- Ver el estado de cambios en los archivos
 
 git show -- Todos los cambios historicos hechos, lineas, fechas, y autor
