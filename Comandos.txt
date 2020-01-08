@@ -14,8 +14,9 @@ git add . -- Git se entera de todos los archivos que han sido modificados
 git rm . -- Remueve todos los archivos que se encuentran en el staging
 git rm biografia.txt -- Remueve un archivo especifico del staging
 git rm --cached biografia.txt -- lo saca de memoria ram
-git commit -m "versión 1" -- Envia el archivo a la BD de GIT, para controlar sus 									cambios, añadiendole un mensaje
+git commit -am "versión 1" -- Envia el archivo a la BD de GIT, para controlar sus 									cambios, añadiendole un mensaje
 
+git commit -a --> Hace add y commit al tiempo, pero abre la consola de vim para escribir un mensaje
 git commit -a "Mensaje" --> Hace add y commit al tiempo, solo sirve en archivos en que ya haya hecho add antes
 
 git status -- Ver el estado de cambios en los archivos
