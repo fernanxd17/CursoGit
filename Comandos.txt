@@ -53,3 +53,6 @@ git push -- Enviar cambios hacia un repositorio remoto
 git fetch --> Trae los cambios del repositorio remoto pero no los mezcla con mis archivos.
 
 git pull -- Une los cambios de un repositorio remoto con en el local
+
+git branch cabecera --> crea una nueva rama desde el commit actual, llamada cabecera
+
