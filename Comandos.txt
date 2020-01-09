@@ -57,3 +57,9 @@ git pull -- Une los cambios de un repositorio remoto con en el local
 git branch cabecera --> crea una nueva rama desde el commit actual, llamada cabecera
 
 git checkout cabecera --> se traslada a la rama cabecera
+
+SI ESTOY PARADO EN MASTER:
+git merge cabecera --> Fusiono los cambios de la rama cabecera con los de la master (la master sigue siendo la principal)
+                    
+SI ESTOY PARADO EN OTRA RAMA
+git merger master --> Fusiono los cambios de la rama master a la rama actual (La rama actual ahora sera la principal)
