@@ -71,3 +71,6 @@ git remote add origin URL_REPO --> Indicamos que vamos a agregar un origen remot
 git remote -v --> Nos muestra la url remote para hacer fetch y push
 
 git push origin master --> Vamos a subir la rama master al repo remoto
+
+git pull origin master --allow-unrelated-histories --> Cuando el repo remoto tiene cambios o archivos (Readme.md) debe permitirse unir esos commits o historias
+
