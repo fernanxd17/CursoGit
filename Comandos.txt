@@ -56,3 +56,4 @@ git pull -- Une los cambios de un repositorio remoto con en el local
 
 git branch cabecera --> crea una nueva rama desde el commit actual, llamada cabecera
 
+git checkout cabecera --> se traslada a la rama cabecera
