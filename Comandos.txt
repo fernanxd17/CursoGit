@@ -74,3 +74,6 @@ git push origin master --> Vamos a subir la rama master al repo remoto
 
 git pull origin master --allow-unrelated-histories --> Cuando el repo remoto tiene cambios o archivos (Readme.md) debe permitirse unir esos commits o historias
 
+PARA CREAR LAS LLAVES PUBLICAS Y PRIVADAS
+
+ssh-keygen -t rsa -b 4096 -C "juanfernandoro@ufps.edu.co" -->Nos pide donde quiere guardar las llaves y si usamos una contraseña para mas seguridad
