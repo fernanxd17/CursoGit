@@ -63,3 +63,11 @@ git merge cabecera --> Fusiono los cambios de la rama cabecera con los de la mas
                     
 SI ESTOY PARADO EN OTRA RAMA
 git merger master --> Fusiono los cambios de la rama master a la rama actual (La rama actual ahora sera la principal)
+
+SOBRE REPOSITORIO remoto
+
+git remote add origin URL_REPO --> Indicamos que vamos a agregar un origen remoto en la URL especifica
+
+git remote -v --> Nos muestra la url remote para hacer fetch y push
+
+git push origin master --> Vamos a subir la rama master al repo remoto
